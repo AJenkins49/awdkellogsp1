@@ -1,0 +1,106 @@
+<!doctype html>
+    <html lang=en>
+        <head>
+            <meta charset="UTF-8">
+            <title>Kellogg's 2020 Annual Report</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+            <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+            <link rel="stylesheet" href="/resources/demos/style.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="/path/to/dist/css/image-zoom.css" />
+            <script src="/path/to/cdn/jquery.min.js"></script>
+            <script src="/path/to/dist/js/image-zoom.min.js"></script>
+            <script>
+                $( function() {
+                $( document ).tooltip({
+                    position: {
+                        my: "center bottom-20",
+                        at: "center top",
+                        using: function( position, feedback ) {
+                        $( this ).css( position );
+                        $( "<div>" )
+                            .addClass( "arrow" )
+                            .addClass( feedback.vertical )
+                            .addClass( feedback.horizontal )
+                            .appendTo( this );
+                        }
+                    }
+                    });
+                } );
+                
+                $( function() {
+                    $( ".dialog-confirm" ).dialog({
+                    resizable: false,
+                    height: "auto",
+                    width: 400,
+                    modal: true,
+                });
+            } );
+
+            $(function(){
+            $('#imageZoom').imageZoom();
+            });
+            
+            </script>
+        </head>
+        <body>
+            <nav class="hero flex-sb container">
+                <div>
+                    <a href="index.html"><img src="images/logo.png" alt="Kellogg's Logo"></a>
+                </div>
+                <div class="dialog-confirm flex-center" title="Download the Annual Report PDF?">
+                    <button><a class="buttonContent" href="https://www.annualreports.com/HostedData/AnnualReports/PDF/NYSE_K_2020.PDF" target="_blank">Download</a></button>
+                </div>
+            </nav>
+            <hr class="nav-hr">
+            <h1 class="center">Making Breakfast into Memories</h1>
+            <img class="flex container" src="images/hp-banner.jpg" alt="little girl at table getting milk poured into her bowl for her cereal by her father with her mother sitting next to her."> 
+            <h6 class="center">Creating better days and a place at the table for everyone through our trusted food brands.</h6>
+            <hr>
+            <div class="container center">
+                <div class="flex-sa">
+                    <div>
+                        <img src="images/froot-loops.png" alt="froot loops logo">
+                        <h6><span>Froot Loops</span></h6>
+                    </div>
+                    <div>
+                        <img src="images/frosted-flakes.png" alt="frosted flakes logo">
+                        <h6><span>Frosted Flakes</span></h6>
+                    </div>
+                    <div>
+                        <img src="images/krave.png" alt="krave logo">
+                        <h6><span>Krave</span></h6>
+                    </div>
+                </div>
+                <div class="flex-sa">
+                    <div>
+                        <img src="images/pop-tarts.png" alt="pop tarts logo">
+                        <h6><span>Pop Tarts</span></h6>
+                    </div>
+                    <div>
+                        <img src="images/pringles.png" alt="pringles logo">
+                        <h6><span>Pringles</span></h6>
+                    </div>
+                    <div>
+                        <img src="images/eggo.png" alt="eggo logo">
+                        <h6><span>Eggo</span></h6>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="center">
+                <button class="btn"><a href="annualReport.html" title="Go to the 2020 Kellogg's Annual Report Page">Annual Report</a></button>
+                <button class="btn"><a href="designSystem.html" title="Go to Kellogg's Design System Page">Design System</a></button>
+            </div>
+            <hr>
+            <a href="" class="container flex" id="return">Return to top</a>
+            <footer class="flex-sa">
+                    <a href="https://www.kelloggcompany.com/en_US/legal.html" title="Warning: You will go to another page." target="_blank">Legal</a>
+                    <a href="https://www.kelloggcompany.com/en_US/ContactUs.html" target="_blank" title="Warning: You will go to another page." >About us</a>
+                    <a href="https://www.kelloggcompany.com/en_US/privacy-policy.html" target="_blank" title="Warning: You will go to another page." > Privacy Policy</a>
+            </footer>
+        </body>
+    </html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Kellogg's 2020 Annual Report</title>
+       <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+            <link rel="stylesheet" href="/resources/demos/style.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+            <link rel="stylesheet" href="css/style.css">
+            <script>
+                $( function() {
+                $( document ).tooltip({
+                    position: {
+                        my: "center bottom-20",
+                        at: "center top",
+                        using: function( position, feedback ) {
+                        $( this ).css( position );
+                        $( "<div>" )
+                            .addClass( "arrow" )
+                            .addClass( feedback.vertical )
+                            .addClass( feedback.horizontal )
+                            .appendTo( this );
+                        }
+                    }
+                    });
+                } );
+                
+                $( function() {
+                    $( ".dialog-confirm" ).dialog({
+                    resizable: false,
+                    height: "auto",
+                    width: 400,
+                    modal: true,
+                });
+            } );
+
+            </script>
+    </head>
+    <body>
+        <nav class="hero flex-sb container">
+            <div>
+                <a href="index.html"><img src="images/logo.png" alt="Kellogg's Logo"></a>
+            </div>
+            <div class="dialog-confirm flex-center" title="Download the Annual Report PDF?">
+                <button><a class="buttonContent" href="https://www.annualreports.com/HostedData/AnnualReports/PDF/NYSE_K_2020.PDF" target="_blank">Download</a></button>
+            </div>
+        </nav>
+        <hr class="nav-hr">
+        <div class="banner flex-center">
+            <h1 class="container">Kellogg's 2020 Annual Report</h1>
+        </div>
+        <div class="container flex-center">
+            <div class="item">
+                <h3>Financial Data</h3>
+                <img src="images/financial-data-thumbnail.jpg" alt="close up of a man on this tablet">
+                <p>Analyzing Cash flow trends, Capital<br> structure trends, and Operating trends</p>
+            </div>
+            <div class="item">
+                <h3>Net Sales and Operating Profit</h3>
+                <img src="../images/net-sales-thumbnail.jpg" alt="man is looking at a presentation with a chart going upwards">
+                <p>View our gains and loses</p>
+            </div>
+            <div class="item">
+                <h3>2019 v 2018</h3>
+                <img src="../images/thumbnail2019v2018.jpg" alt="someone is holding their iPhone with 2019's Year Calendar">
+                <p>Seeing our 2019 Financial Data<br> compared to 2018’s</p>
+            </div>
+        </div>
+        <h2 class="container left"><span>Financial Data</span></h2>
+        <div class="v1-yellow container flex-sa">
+            <div class="item flex">
+                <h4>Our Gross Profit has gone up by 2%</h4>
+            </div>
+            <div class="item flex">
+                <h4>We have raised our advertising expense by 15.6%</h4>
+            </div>
+            <div class="item flex">
+                <h4>Our Total assets have gone up by 2.5%</h4>
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="left"><span><strong>Kellogg's Financial Info</strong></span></h3>
+            <p>Collected research and development that shows which cost 
+            declines are due primarily to cost optimization and divertiture 
+            impacts. We use this non-GAAP financial measure, 
+            which is reconciled above, to focus mantabagement and 
+            investors on the amount of cash available for debt 
+            repayment, dividend distribution, acquuisition opportunitites, 
+            and share repurchase.</p>
+            <table>
+                <thead>
+                    <tr class="tablev1-yellow">
+                        <th>Operating Trends</th>
+                        <th>2020</th>
+                        <th></th>
+                        <th>2019</th>
+                        <th>2018</th>
+                        <th></th>
+                        <th>2017</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Net Sales</td>
+                        <td><strong>$13,770</strong></td>
+                        <td></td>
+                        <td>$13,587</td>
+                        <td>$13,547</td>
+                        <td></td>
+                        <td>$12,854</td>
+                    </tr>
+                    <tr class="tablev1-yellow">
+                        <td>Gross profit as a % of net sales</td>
+                        <td><strong>34.3%</strong></td>
+                        <td></td>
+                        <td>32.3%</td>
+                        <td>34.9%</td>
+                        <td></td>
+                        <td>36.6%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cash flow trends</strong></td>
+                        <td><strong>$1,986</strong></td>
+                        <td></td>
+                        <td>$1,176</td>
+                        <td>$1,536</td>
+                        <td></td>
+                        <td>$403</td>
+                    </tr>
+                    <tr class="tablev1-yellow">
+                        <td>Capital expenditures</td>
+                        <td><strong>505</strong></td>
+                        <td></td>
+                        <td>586</td>
+                        <td>578</td>
+                        <td></td>
+                        <td>501</td>
+                    </tr>
+                    <tr>
+                        <td>Net Cash in Investing</td>
+                        <td><strong>1,481</strong></td>
+                        <td></td>
+                        <td>590</td>
+                        <td>958</td>
+                        <td></td>
+                        <td>764</td>
+                    </tr>
+                    <tr class="tablev1-yellow">
+                        <td><strong>Capital structure trends</strong></td>
+                        <td><strong>$17,996</strong></td>
+                        <td></td>
+                        <td>$17,564</td>
+                        <td>$17,780</td>
+                        <td></td>
+                        <td>$16,351</td>
+                    </tr>
+                    <tr>
+                        <td>Property, net</td>
+                        <td><strong>3,713</strong></td>
+                        <td></td>
+                        <td>3,612</td>
+                        <td>3,731</td>
+                        <td></td>
+                        <td>3,716</td>
+                    </tr>
+                    <tr class="tablev1-yellow">
+                        <td>Short-term debt</td>
+                        <td><strong>729</strong></td>
+                        <td></td>
+                        <td>727</td>
+                        <td>686</td>
+                        <td></td>
+                        <td>779</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Share price trends</strong></td>
+                        <td><strong>$53-71</strong></td>
+                        <td></td>
+                        <td>$52-69</td>
+                        <td>$56-75</td>
+                        <td></td>
+                        <td>$70-87</td>
+                    </tr>
+                    <tr class="tablev1-yellow">
+                        <td>Cash Dividends</td>
+                        <td><strong>2.28</strong></td>
+                        <td></td>
+                        <td>2.26</td>
+                        <td>2.20</td>
+                        <td></td>
+                        <td>2.12</td>
+                    </tr>
+                </tbody>   
+            </table>
+            <p>The above amounts have been restated to include the 
+                impact of Accounting Standard Updates adopted in the 
+                first quarter of 2018. Additionally, the above prior 
+                year amounts have not been restated to include the 
+                impact of the Leases ASU adopted in the first 
+                quarter of 2019. </p>
+        </div>
+        <div class="v1-yellow container flex-sa">
+            <div class="item flex">
+                <h4>Research and development cost declines are due to primarily to cost optimization and diveriture impacts</h4>
+            </div>
+            <div class="item flex">
+                <h4>We use this non-GAAP financial measure, which is reconciled above, to focus managament and investors 
+                    on the amount of cash available for debt repayment, dividend distribution, 
+                    acquisition opportunities, and share repurchase.</h4>
+            </div>
+            <div class="item flex">
+                <h4>Interest coverage ratio is calculated based on net income 
+                    attributable to Kellogg Company before interest expense, 
+                    income taxes, depreciation and amortization, divided by interest expense.</h4>
+            </div>
+        </div>
+        <h2 class="left container"><span>Net Sales & Operating Profit</span></h2>
+        <div class="v1-grey container flex-sa">
+            <div class="item flex">
+                <h4>We’ve gained a 6.7% growth from Europe</h4>
+            </div>
+            <div class="item flex">
+                <h4>North America makes up 40% of our Reported Net Sales</h4>
+            </div>
+            <div class="item flex">
+                <h4>We gained a .4% profit from North America</h4>
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="left"><span><strong>2020 compared to 2019</strong></span></h3>
+            <p>Analysis of net sales and operating profit performance for 2020 vs 2019</p>
+            <table>
+                <thead>
+                    <tr class="tablev1-grey">
+                        <th>Year-End Jan 2, 2021</th>
+                        <th>North America</th>
+                        <th></th>
+                        <th>Europe</th>
+                        <th>Latin America</th>
+                        <th></th>
+                        <th>Kellogg Consolidated</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Reported net sales</td>
+                        <td><strong>$8,361</strong></td>
+                        <td></td>
+                        <td>$2,232</td>
+                        <td>$914</td>
+                        <td></td>
+                        <td>$13,770</td>
+                    </tr>
+                    <tr class="tablev1-grey">
+                        <td>Currency-neutral net sales</td>
+                        <td><strong>$8,368</strong></td>
+                        <td></td>
+                        <td>$2,219</td>
+                        <td>$1,048</td>
+                        <td></td>
+                        <td>$13,974</td>
+                    </tr>
+                    <tr>
+                        <td>Impact of 53rd week</td>
+                        <td><strong>134</strong></td>
+                        <td></td>
+                        <td>22</td>
+                        <td>-</td>
+                        <td></td>
+                        <td>174</td>
+                    </tr>
+                    <tr class="tablev1-grey">
+                        <td>Foreign currency impact</td>
+                        <td><strong>-</strong></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>-</td>
+                        <td></td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Organic net sales</td>
+                        <td><strong>$8,234</strong></td>
+                        <td></td>
+                        <td>$2,198</td>
+                        <td>$1,048</td>
+                        <td></td>
+                        <td>$13,802</td>
+                    </tr>
+                    <tr class="tablev1-grey">
+                        <td>Reported growth</td>
+                        <td><strong>.4%</strong></td>
+                        <td></td>
+                        <td>6.7%</td>
+                        <td>2.8%</td>
+                        <td></td>
+                        <td>1.4%</td>
+                    </tr>
+                    <tr>
+                        <td>Currency neutral growth</td>
+                        <td><strong>.3%</strong></td>
+                        <td></td>
+                        <td>6%</td>
+                        <td>11.4%</td>
+                        <td></td>
+                        <td>2.9%</td>
+                    </tr>
+                    <tr class="tablev1-grey">
+                        <td>Divestitures</td>
+                        <td><strong>7.1</strong>%</td>
+                        <td></td>
+                        <td>-</td>
+                        <td>.7%</td>
+                        <td></td>
+                        <td>4.5%</td>
+                    </tr>
+                    <tr>
+                        <td>Pricing/mix</td>
+                        <td><strong>.3%</strong></td>
+                        <td></td>
+                        <td>.2%</td>
+                        <td>3.2%</td>
+                        <td></td>
+                        <td>.9%</td>
+                    </tr>
+                    <tr class="tablev1-grey">
+                        <td>Volume</td>
+                        <td><strong>4.8%</strong></td>
+                        <td></td>
+                        <td>5.3%</td>
+                        <td>8.9%</td>
+                        <td></td>
+                        <td>5.1%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>The above amounts have been restated to include the impact of Accounting 
+                Standard Updates adopted in the first quarter of 2018. Additionally, 
+                the above prior year amounts have not been restated to include 
+                the impact of the Leases ASU adopted in the first quarter of 2019.</p>
+                <div class="v1-grey flex-sa">
+                    <div class="item flex">
+                        <h4>We’ve gained a 6.7% growth from Europe</h4>
+                    </div>
+                    <div class="item flex">
+                        <h4>North America makes up 40% of our Reported Net Sales</h4>
+                    </div>
+                    <div class="item flex">
+                        <h4>We gained a .4% profit from North America</h4>
+                    </div>
+                </div>
+                <h2 class="left"><span>2019 v 2018</span></h2>
+                <div class="v1-red flex-sa">
+                    <div class="item flex">
+                        <h4>We’ve gained a 6.7% growth from Europe</h4>
+                    </div>
+                    <div class="item flex">
+                        <h4>North America makes up 40% of our Reported Net Sales</h4>
+                    </div>
+                    <div class="item flex">
+                        <h4>We gained a .4% profit from North America</h4>
+                    </div>
+                </div>
+                <div class="">
+                    <h3 class="left">2019 compared to 2018</h3>
+                    <p>Analysis of net sales and operating profit performance for 2019 vs 2018</p>
+                    <table>
+                        <thead>
+                            <tr class="tablev1-red">
+                                <th>Year-End Dec 28, 2019</th>
+                                <th>North America</th>
+                                <th></th>
+                                <th>Europe</th>
+                                <th>Latin America</th>
+                                <th></th>
+                                <th>Kellogg Consolidated</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Reported net sales</td>
+                                <td><strong>$8,390</strong></td>
+                                <td></td>
+                                <td>$2,092</td>
+                                <td>$940</td>
+                                <td></td>
+                                <td>$13,578</td>
+                            </tr>
+                            <tr class="tablev1-red">
+                                <td>Currency-neutral net sales</td>
+                                <td><strong>$8,400</strong></td>
+                                <td></td>
+                                <td>$2,193</td>
+                                <td>$972</td>
+                                <td></td>
+                                <td>$13,810</td>
+                            </tr>
+                            <tr>
+                                <td>Impact of 53rd week</td>
+                                <td><strong>134</strong></td>
+                                <td></td>
+                                <td>22</td>
+                                <td>-</td>
+                                <td></td>
+                                <td>174</td>
+                            </tr>
+                            <tr class="tablev1-red">
+                                <td>Foreign currency impact</td>
+                                <td><strong>-</strong></td>
+                                <td></td>
+                                <td>1</td>
+                                <td>49</td>
+                                <td></td>
+                                <td>49</td>
+                            </tr>
+                            <tr>
+                                <td>Organic net sales</td>
+                                <td><strong>$8,400</strong></td>
+                                <td></td>
+                                <td>$2,193</td>
+                                <td>$973</td>
+                                <td></td>
+                                <td>$13,489</td>
+                            </tr>
+                            <tr class="tablev1-red">
+                                <td>Reported growth</td>
+                                <td><strong>3.4%</strong></td>
+                                <td></td>
+                                <td>1.4%</td>
+                                <td>.7%</td>
+                                <td></td>
+                                <td>2.4%</td>
+                            </tr>
+                            <tr>
+                                <td>Currency neutral growth</td>
+                                <td><strong>3.3%</strong></td>
+                                <td></td>
+                                <td>3.3%</td>
+                                <td>2.8%</td>
+                                <td></td>
+                                <td>1.9%</td>
+                            </tr>
+                            <tr class="tablev1-red">
+                                <td>Divestitures</td>
+                                <td><strong>3.5%</strong></td>
+                                <td></td>
+                                <td>-</td>
+                                <td>.4%</td>
+                                <td></td>
+                                <td>2.4%</td>
+                            </tr>
+                            <tr>
+                                <td>Pricing/mix</td>
+                                <td><strong>2%</strong></td>
+                                <td></td>
+                                <td>1.6%</td>
+                                <td>3.2%</td>
+                                <td></td>
+                                <td>2.1%</td>
+                            </tr>
+                            <tr class="tablev1-red">
+                                <td>Volume</td>
+                                <td><strong>1.8%</strong></td>
+                                <td></td>
+                                <td>1.7%</td>
+                                <td>-</td>
+                                <td></td>
+                                <td>.2%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Corporate in 2019 includes the cost of certain global research 
+                        and development activites that were previously included in the 
+                        North America reportable segment in 2018 that totaled 
+                        approximately $48 million.</p>
+            </div>
+        </div>
+        <div class="v1-red container flex-sa">
+            <div class="item flex">
+                <h4>Latin America decreased by .7% due to unfavorable foreign currency</h4>
+            </div>
+            <div class="item flex">
+                <h4>Europe’s sales decreased by 1.4% due to unfavorable foreign currency</h4>
+            </div>
+            <div class="item flex">
+                <h4>North America’s net sales decreased 3.4%</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="center">
+            <button class="btn"><a href="annualReport.html" title="Go to the 2020 Kellogg's Annual Report Page">Annual Report</a></button>
+            <button class="btn"><a href="designSystem.html" title="Go to Kellogg's Design System Page">Design System</a></button>
+        </div>
+        <hr>
+        <a href="" class="container flex" id="return">Return to top</a>
+        <footer class="flex-sa">
+                <a href="https://www.kelloggcompany.com/en_US/legal.html" title="Warning: You will go to another page." target="_blank">Legal</a>
+                <a href="https://www.kelloggcompany.com/en_US/ContactUs.html" target="_blank" title="Warning: You will go to another page." >About us</a>
+                <a href="https://www.kelloggcompany.com/en_US/privacy-policy.html" target="_blank" title="Warning: You will go to another page." > Privacy Policy</a>
+        </footer>
+    </body>
+</html>

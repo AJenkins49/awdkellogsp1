@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kellogg's 2020 Annual Report</title>
+       <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="../images/logo.png"/>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+            <link rel="stylesheet" href="/resources/demos/style.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+            <link rel="stylesheet" href="css/style.css">
+            <script>
+                $( function() {
+                $( document ).tooltip({
+                    position: {
+                        my: "center bottom-20",
+                        at: "center top",
+                        using: function( position, feedback ) {
+                        $( this ).css( position );
+                        $( "<div>" )
+                            .addClass( "arrow" )
+                            .addClass( feedback.vertical )
+                            .addClass( feedback.horizontal )
+                            .appendTo( this );
+                        }
+                    }
+                    });
+                } );
+                
+                $( function() {
+                    $( ".dialog-confirm" ).dialog({
+                    resizable: false,
+                    height: "auto",
+                    width: 400,
+                    modal: true,
+                });
+            } );
+
+            </script>
+    </head>
+    <body>
+        <nav class="hero flex-sb container">
+            <div>
+                <a href="index.html"><img src="images/logo.png" alt="Kellogg's Logo"></a>
+            </div>
+            <div class="dialog-confirm flex-center" title="Download the Annual Report PDF?">
+                <button><a class="buttonContent" href="https://www.annualreports.com/HostedData/AnnualReports/PDF/NYSE_K_2020.PDF" target="_blank">Download</a></button>
+            </div>
+        </nav>
+        <hr class="nav-hr">
+        <header>
+            <div class="container flex-center header__image">
+                <img src="images/logoOfficial.png" alt="official Kellogg's Logo">
+            </div>
+            <p class="container flex-center"> Design System</p>
+        </header>
+        <div class="container redBanner">
+            <h2>Colors</h2>
+        </div>
+        <div class="container">
+            <div class="set flex-sb left">
+                <div>
+                    <h6>Base</h6>
+                    <h6>#FFFFFF</h6>
+                </div>
+                <div class="flex">
+                    <div class="block__color white1"></div>
+                    <div class="block__color white2"></div>
+                    <div class="block__color white3"></div>
+                </div>
+            </div>
+            <div class="set flex-sb left">
+                <div>
+                    <h6>Primary</h6>
+                    <h6>#8B1015</h6>
+                </div>
+                <div class="flex">
+                    <div class="block__color red1"></div>
+                    <div class="block__color red2"></div>
+                    <div class="block__color red3"></div>
+                    <div class="block__color red4"></div>
+                    <div class="block__color red5"></div>
+                </div>
+            </div>
+            <div class="set flex-sb left">
+                <div>
+                    <h6>Secondary</h6>
+                    <h6>#545454</h6>
+                </div>
+                <div class="flex">
+                    <div class="block__color grey1"></div>
+                    <div class="block__color grey2"></div>
+                    <div class="block__color grey3"></div>
+                    <div class="block__color grey4"></div>
+                    <div class="block__color grey5"></div>
+                </div>
+            </div>
+            <div class="set flex-sb left">
+                <div>
+                    <h6>Contrast</h6>
+                    <h6>#C89940</h6>
+                </div>
+                <div class="flex">
+                    <div class="block__color yellow1"></div>
+                    <div class="block__color yellow2"></div>
+                    <div class="block__color yellow3"></div>
+                    <div class="block__color yellow4"></div>
+                    <div class="block__color yellow5"></div>
+                </div>
+            </div>
+            <div class="set flex-sb left">
+                <div>
+                    <h6>Positive Alert</h6>
+                    <h6>#FFA6A9</h6>
+                </div>
+                <div class="flex">
+                    <div class="block__color pink1"></div>
+                    <div class="block__color pink2"></div>
+                    <div class="block__color pink3"></div>
+                    <div class="block__color pink4"></div>
+                    <div class="block__color pink5"></div>
+                </div>
+            </div>
+            <div class="set flex-sb left">
+                <div>
+                    <h6>Neutral Alert</h6>
+                    <h6>#C8454A</h6>
+                </div>
+                <div class="flex">
+                    <div class="block__color hotpink1"></div>
+                    <div class="block__color hotpink2"></div>
+                    <div class="block__color hotpink3"></div>
+                    <div class="block__color hotpink4"></div>
+                    <div class="block__color hotpink5"></div>
+                </div>
+            </div>
+            <div class="set flex-sb left">
+                <div>
+                    <h6>Negative Warning</h6>
+                    <h6>#B90007</h6>
+                </div>
+                <div class="flex">
+                    <div class="block__color red6"></div>
+                    <div class="block__color red7"></div>
+                    <div class="block__color red8"></div>
+                    <div class="block__color red9"></div>
+                    <div class="block__color red10"></div>
+                </div>
+            </div>
+        </div>
+        <div class="redBanner container">
+            <h2>Logos</h2>
+        </div>
+        <div class="flex-sa container">
+            <div>
+                <img src="images/logoV3.png" alt="a red icon of a chicken head with it's beak open, with the name Kellogg in an outline on the right side.">
+                <img src="images/logoV4.png" alt="red outline of the name Kellogg's">
+            </div>
+            <div>
+                <img src="images/logoV2.png" alt="a red icon of a chicken head with it's beak open, with the name Kellogg in an outline on top of the outline.">
+                <img src="images/logoV1.png" alt="a red icon of a chicken head with it's beak open, with the name Kellogg in an outline on the left side.">
+            </div>
+        </div>
+        <div class="container redBanner">
+            <h2>Typography</h2>
+        </div>
+        <div class="container set typography">
+            <div class="flex-sb">
+                <div>
+                    <p><span>roboto</span></p>
+                </div>
+                <div>
+                    <p id="paragraph__padding--small">Paragraph</p>
+                </div>
+                <div>
+                    <p class="paragrah">16</p>
+                </div>
+                <div>
+                    <p>p</p>
+                </div>
+            </div>
+            <hr>
+            <div class="flex-sb">
+                <div>
+                    <p><span>kelloggs-sans</span></p>
+                </div>
+                <div>
+                    <h6>Heading 6</h6>
+                </div>
+                <div>
+                    <p>18</p>
+                </div>
+                <div>
+                    <p>h6</p>
+                </div>
+            </div>
+            <hr>
+            <div class="flex-sb">
+                <div>
+                    <p><span>kelloggs-sans</span></p>
+                </div>
+                <div>
+                    <h5>Heading 5</h5>
+                </div>
+                <div>
+                    <p>20</p>
+                </div>
+                <div>
+                    <p>h5</p>
+                </div>
+            </div>
+            <hr>
+            <div class="flex-sb">
+                <div>
+                    <p><span>kelloggs-sans</span></p>
+                </div>
+                <div>
+                    <h4>Heading 4</h4>
+                </div>
+                <div>
+                    <p>22</p>
+                </div>
+                <div>
+                    <p>h4</p>
+                </div>
+            </div>
+            <hr>
+            <div class="flex-sb">
+                <div>
+                    <p><span>kelloggs-sans</span></p>
+                </div>
+                <div>
+                    <h3>Heading 3</h3>
+                </div>
+                <div>
+                    <p class="paragraph__padding--less24">24</p>
+                </div>
+                <div>
+                    <p>h3</p>
+                </div>
+            </div>
+            <hr>
+            <div class="flex-sb">
+                <div>
+                    <p><span>kelloggs-sans</span></p>
+                </div>
+                <div>
+                    <h2>Heading 2</h2>
+                </div>
+                <div>
+                    <p class="paragraph__padding--less32">32</p>
+                </div>
+                <div>
+                    <p>h2</p>
+                </div>
+            </div>
+            <hr>
+            <div class="flex-sb">
+                <div>
+                    <p><span>kelloggs-sans</span></p>
+                </div>
+                <div>
+                    <h1>Heading 1</h1>
+                </div>
+                <div>
+                    <p class="paragraph__padding--less40">40</p>
+                </div>
+                <div
+                ><p>h1</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+        <div class="container redBanner">
+            <h2>Buttons</h2>
+        </div>
+        <div class="container">
+            <h3>Primary</h3>
+            <div class="set primaryButtons flex-sb">
+                <div class="priNormal">
+                    <h4>Normal</h4>
+                    <button class="btnDisplay red1">Button</button>
+                </div>
+                <div class="priOutline">
+                    <h4>Hover</h4>
+                    <button class="btnDisplay red2">Button</button>
+                </div>
+                <div class="priActive">
+                    <h4>Active</h4>
+                    <button class="btnDisplay red3">Button</button>
+                </div>
+            </div>
+            <div class="primaryOutlineButtons">
+                <h3>Primary - Outline</h3>
+                <div class="set primaryButtons flex-sb">
+                    <div class="priNormal">
+                        <h4>Normal</h4>
+                        <button class="btnDisplay-outline redout1">Button</button>
+                    </div>
+                    <div class="priOutline">
+                        <h4>Hover</h4>
+                        <button class="btnDisplay-outline redout2">Button</button>
+                    </div>
+                    <div class="priActive">
+                        <h4>Active</h4>
+                        <button class="btnDisplay-outline redout3">Button</button>
+                    </div>
+                </div>
+            </div>
+            <div class="secondaryButtons">
+                <h3>Secondary</h3>
+                <div class="set flex-sa">
+                    <div class="secNormal">
+                        <h4>Normal</h4>
+                        <button class="btnDisplay grey1">Button</button>
+                    </div>
+                    <div class="secOutline">
+                        <h4>Hover</h4>
+                        <button class="btnDisplay grey2">Button</button>
+                    </div>
+                    <div class="secActive">
+                        <h4>Active</h4>
+                        <button class="btnDisplay grey3">Button</button>
+                    </div>
+                </div>
+            </div>
+            <div class="secondaryOutlineButtons">
+                <div class="set flex-sa">
+                    <div class="secNormal">
+                        <h4>Normal</h4>
+                        <button class="btnDisplay-outline greyout1">Button</button>
+                    </div>
+                    <div class="secOutline">
+                        <h4>Hover</h4>
+                        <button class="btnDisplay-outline greyout2">Button</button>
+                    </div>
+                    <div class="secActive">
+                        <h4>Active</h4>
+                        <button class="btnDisplay-outline greyou3">Button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="redBanner container">
+            <h2>Icons</h2>
+        </div>
+        <div class="container">
+            <div class="flex-sb icons">
+                <div>
+                    <img src="images/arrowDown.svg" alt="icon-arrowDown-outline">
+                </div>
+                <div>
+                    <img src="images/arrowLeft.svg" alt="icon-arrowLeft-outline">
+                </div>
+                <div>
+                    <img src="images/arrowUp.svg" alt="icon-arrowUp-outline">
+                </div>
+                <div>
+                    <img src="images/arrowRight.svg" alt="icon-arrowRight-outline">
+                </div>
+                <div>
+                    <img src="images/menu.svg" alt="icon-Menu-outline">
+                </div>
+                <div>
+                    <img src="images/checkmark.svg" alt="icon-Checkmark-outline">
+                </div>
+                <div>
+                    <img src="images/options.svg" alt="icon-Options-outline">
+                </div>
+                <div>
+                    <img src="images/money.svg" alt="icon-Money-outline">
+                </div>
+                <div>
+                    <img src="images/dotsHorizontal.svg" alt="icon-dotsHorizontal-outline">
+                </div>
+            </div>
+            <br>
+            <div class="flex-sb icons">
+                <div>
+                    <img src="images/airplane.svg" alt="icon-airplane-outline">
+                </div>
+                <div>
+                    <img src="images/plus.svg" alt="icon-plus-outline">
+                </div>
+                <div>
+                    <img src="images/playbutton.svg" alt="icon-playbutton-outline">
+                </div>
+                <div>
+                    <img src="images/questionmark.svg" alt="icon-questionmark-outline">
+                </div>
+                <div>
+                    <img src="images/refresh.svg" alt="icon-refres-outline">
+                </div>
+                <div>
+                    <img src="images/undo.svg" alt="icon-undo-outline">
+                </div>
+                <div>
+                    <img src="images/search.svg" alt="icon-search-outline">
+                </div>
+                <div>
+                    <img src="images/share.svg" alt="icon-share-outline">
+                </div>
+                <div>
+                    <img src="images/dotsVertical.svg" alt="icon-dotsVertical-outline">
+                </div>
+            </div>
+            <br>
+            <div class="flex-sb icons">
+                <div>
+                    <img src="images/mail.svg" alt="icon-mail-outline">
+                </div>
+                <div>
+                    <img src="images/flag.svg" alt="icon-flag-outline">
+                </div>
+                <div>
+                    <img src="images/folder.svg" alt="icon-folder-outline">
+                </div>
+                <div>
+                    <img src="images/internet.svg" alt="icon-internet-outline">
+                </div>
+                <div>
+                    <img src="images/info.svg" alt="icon-info-outline">
+                </div>
+                <div>
+                    <img src="images/key.svg" alt="icon-key-outline">
+                </div>
+                <div>
+                    <img src="images/idea.svg" alt="icon-idea-outline">
+                </div>
+                <div>
+                    <img src="images/link.svg" alt="icon-link-outline">
+                </div>
+                <div>
+                    <img src="images/directions.svg" alt="icon-directions-outline">
+                </div>
+            </div>
+            <br>
+            <div class="flex-sb icons">
+                <div>
+                    <img src="images/x.svg" alt="icon-x-outline">
+                </div>
+                <div>
+                    <img src="images/trash.svg" alt="icon-trash-outline">
+                </div>
+                <div>
+                    <img src="images/lock.svg" alt="icon-lock-outline">
+                </div>
+                <div>
+                    <img src="images/user.svg" alt="icon-user-outline">
+                </div>
+                <div>
+                    <img src="images/redo.svg" alt="icon-redo-outline">
+                </div>
+                <div>
+                    <img src="images/voicemail.svg" alt="icon-voicemail-outline">
+                </div>
+                <div>
+                    <img src="images/lock.svg" alt="icon-lock-outline">
+                </div>
+                <div>
+                    <img src="images/edit.svg" alt="icon-edit-outline">
+                </div>
+                <div>
+                    <img src="images/phone.svg" alt="icon-phone-outline">
+                </div>
+            </div>
+        </div>
+        <div class="redBanner container">
+            <h2>Navigation</h2>
+        </div>
+        <div class="container">
+            <h3>Header</h3>
+            <nav class="hero flex-sb container">
+                <div>
+                    <a href="index.html"><img src="images/logo.png" alt="Kellogg's Logo"></a>
+                </div>
+                <div>
+                    <button class="btn"><a href="https://www.annualreports.com/HostedData/AnnualReports/PDF/NYSE_K_2020.PDF" target="_blank">Download</a></button>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <h3>Header - Mobile</h3>
+            <div class="flex-sa mobileversion">
+                <img src="images/mobilever1.svg" alt="A version of the site in an app form, there's a navgation in dark red with white as the color of the font, and the content is to login.">
+                <img src="images/mobileversion2.svg" alt="An overlay that displays menu.">
+            </div>
+        </div>
+        <div class="container">
+            <h3>Footer</h3>
+            <a href="" class="container">Return to top</a>
+            <footer class="flex-sa flex">
+                <a href="https://www.kelloggcompany.com/en_US/legal.html" target="_blank">Legal</a>
+                <a href="https://www.kelloggcompany.com/en_US/ContactUs.html" target="_blank">About us</a>
+                <a href="https://www.kelloggcompany.com/en_US/privacy-policy.html" target="_blank"> Privacy Policy</a>
+            </footer>
+        </div>
+        <div class="redBanner container">
+            <h2>Accordion</h2>
+        </div>
+        <div class="row container">
+            <div class="col">
+              <div class="tabs">
+                <div class="tab">
+                  <input type="checkbox" id="chck1">
+                  <label class="tab-label" for="chck1">Accordion heading</label>
+                  <div class="tab-content">
+                    We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.
+                  </div>
+                </div>
+                <div class="tab">
+                  <input type="checkbox" id="chck2">
+                  <label class="tab-label" for="chck2">Accordion heading</label>
+                  <div class="tab-content">
+                    We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="redBanner container">
+                <h2>Form & Input</h2>
+            </div>
+            <div class="container form flex-center">
+                <img src="images/form.svg" alt="shows our forms, the text field is grey but when selected it's dark red">
+            </div>
+            <hr>
+            <div class="center">
+                <button class="btn"><a href="annualReport.html" title="Go to the 2020 Kellogg's Annual Report Page">Annual Report</a></button>
+                <button class="btn"><a href="designSystem.html" title="Go to Kellogg's Design System Page">Design System</a></button>
+            </div>
+            <hr>
+            <a href="" class="container flex" id="return">Return to top</a>
+            <footer class="flex-sa">
+                    <a href="https://www.kelloggcompany.com/en_US/legal.html" title="Warning: You will go to another page." target="_blank">Legal</a>
+                    <a href="https://www.kelloggcompany.com/en_US/ContactUs.html" target="_blank" title="Warning: You will go to another page." >About us</a>
+                    <a href="https://www.kelloggcompany.com/en_US/privacy-policy.html" target="_blank" title="Warning: You will go to another page." > Privacy Policy</a>
+            </footer>
+    </body>
+</html>
